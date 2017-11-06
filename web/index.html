@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Take a quiz</title>
+</head>
+<body>
+    <h1>Please take a moment and complete quiz</h1>
+    <form action="/quiz" method="POST">
+        <p name="question1">By sending 4** error server means that...</p>
+        <input type="radio" name="question1" value="0"> You fucked up<br>
+        <input type="radio" name="question1" value="1"> He fucked up<br>
+        <input type="radio" name="question1" value="2"> Go away<br>
+        <hr>
+        <p name="question2">How'd you feel today?</p>
+        <input type="radio" name="question2" value="0"> Fine<br>
+        <input type="radio" name="question2" value="1"> Great<br>
+        <input type="radio" name="question2" value="2"> Bad<br>
+        <hr>
+        First name:<input type="text" name="name"><br>
+        Last name:<input type="text" name="surname"><br>
+        Age:<input type="text" name="age"><br>
+        <input type="submit">Submit</input>
+    </form>
+</body>
+</html>
